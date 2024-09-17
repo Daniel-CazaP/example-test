@@ -62,10 +62,9 @@ In order to ensure that the Laravel community is welcoming to all, please review
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 # Descripción
- Este proyecto es una prueba técnica realizada en un plazo de 90 minutos para un proyecto backend en laravel, consta de autenticación con Sanctum, flujo de registro de usuario y login, CRUD para productos y categorias. Por mejorar en futuras pruebas técnicas es implementación de pruebas unitarias.
+ Este proyecto es una prueba técnica realizada en un plazo de 90 minutos para un proyecto backend en laravel, consta de autenticación con Sanctum, flujo de registro de usuario y login, CRUD para productos y categorias. Por mejorar en futuras pruebas técnicas es implementar pruebas unitarias.
 
 # Requerimentos
-
 
 1 Comando para instalar Laravel/Sanctum.
 ```bash
@@ -81,7 +80,25 @@ composer required laravel/sanctum
 ```bash
 sudo apt install php8.2 o superior
 ```
+4 Modificar el archivo .env segun sea el caso.
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nombre-de-db
+DB_USERNAME=usuario-de-db
+DB_PASSWORD=password-de-usuario
+```
 
+5 Actualizar dependencias.
+```
+composer update
+```
+
+6 Correr servidor en puerto local.
+```
+php artisan server --port=8001
+```
 
 ## License
 
