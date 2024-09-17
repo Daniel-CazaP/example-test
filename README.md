@@ -61,6 +61,11 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# example-test
+
 # Descripción
  Este proyecto es una prueba técnica realizada en un plazo de 90 minutos para un proyecto backend en laravel, consta de autenticación con Sanctum, flujo de registro de usuario y login, CRUD para productos y categorias. Por mejorar en futuras pruebas técnicas es implementar pruebas unitarias.
 
@@ -99,8 +104,3 @@ composer update
 ```
 php artisan server --port=8001
 ```
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# example-test
