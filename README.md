@@ -66,16 +66,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 # Requerimentos
 
+
+1 Comando para instalar Laravel/Sanctum.
 ```bash
-1 Comando para instalar Laravel/Sanctum 
 composer required laravel/sanctum
 ```
+
+2 Actualizar la versión de Laravel 11.
 ```bash
-2 Actualizar la versión de Laravel 11
 "laravel/framework": "^11.0"
 ```
+
+3 Actualizar la versión de PHP 8.2 o superior.
 ```bash
-3 Actualizar la versión de PHP 8.2 o superior
 sudo apt install php8.2 o superior
 ```
 
