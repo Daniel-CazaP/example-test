@@ -61,6 +61,22 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+#Descripción
+##Este proyecto es una prueba técnica realizada en un plazo de 90 minutos para un proyecto backend en laravel, consta de autenticación con Sanctum, flujo de registro de usuario y login, CRUD para productos y categorias. Por mejorar en futuras pruebas técnicas es implementación de pruebas unitarias.
+
+#Requerimentos
+#1 Laravel/Sanctum 
+##`composer required laravel/sanctum
+
+#2 Laravel 11
+```"laravel/framework": "^11.0"
+```
+
+#3 PHP 8.2 o superior
+## `sudo apt install php8.2 o superior
+
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
